@@ -1,0 +1,386 @@
+:root{
+    --colorlight:rgb(212, 187, 187);
+    --colorlight2:white;
+    --colordark:rgb(54, 48, 48);
+    --colorshadow:rgba(211, 211, 211, 0.349);
+}
+
+@font-face{
+    font-family: SodoSans-Bold;
+    src: url(../Imagens/Fonts/SoDoSans-Bold.ttf)
+}
+
+@font-face{
+    font-family: SodoSans-Regular;
+    src: url(../Imagens/Fonts/SoDoSans-Regular.ttf)
+}
+@font-face {
+    font-family: Pike;
+    src: url(../Imagens/Fonts/pike-bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 234, 234);
+    font-family: Arial;
+    color: var(--colorlight2)
+}
+
+img#logo{
+    width: 145px;
+    height: 80px;
+    position: absolute;
+    left: -15px;
+    top: 3px;
+}
+
+.header,
+.navegacao_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    background-color: var(--colorlight2);
+    box-shadow: 1px 1px 4px var(--colordark);
+    height: 90px;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.navegacao_header{
+    gap: 50px;
+}
+
+
+a#snavega{
+    position: absolute;
+    left: 130px;
+}
+
+
+a#tnavega{
+    position: absolute;
+    left: 200px;
+}
+
+
+.navegacao_header a{
+    text-decoration: none;
+    color: var(--colordark);
+    transition: 1s;
+    font-weight: bold;
+}
+
+.active{
+    font-family: SoDoSans-Bold;
+    text-decoration: none;
+}
+.active:hover{
+    color: rgb(36, 201, 36);
+    text-shadow: rgb(4, 173, 4) 0.1em 0.5em 0.9em;
+    transition: 0.2s;
+}
+
+
+#logar {
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: black;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+    position: absolute;
+    right: 120px;
+    top: 28px;
+}
+
+#logar:hover{
+    background-color:rgba(76, 92, 76, 0.575);
+    color: black;
+    border-color: black;
+    border-width: 1px;
+
+}
+#logar a{
+    color: black    ;
+    text-decoration: none;
+}
+
+#Cadastrar {
+    background-color:black;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: black;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+    position: absolute;
+    right: 15px;
+    top: 28px;
+}
+
+#Cadastrar:hover{
+    background-color:rgba(76, 92, 76, 0.575);
+    color: black;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+#Cadastrar a{
+    color: white;
+    text-decoration: none;
+}
+
+#local {
+    font-family: SoDoSans-Bold;
+    position: absolute;
+    right: 230px;
+    border: none;
+    background-color: var(--colorlight2);
+    
+}
+
+#local :hover{
+    color: rgb(19, 226, 36);
+    transition: 1.6s;
+}
+
+#tiposs{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+h1#diversos{
+    font-family: SodoSans-Bold;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+
+}
+    
+
+img#lojas{
+    position: absolute;
+    width: 550px;
+    height: 390px;
+    right: 0px;
+    top: 558px;
+}
+h1#Lojas_title{
+    font-family: SodoSans-Bold;
+    position: absolute;
+    left: 210px;
+    top: 610px;
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+
+}
+
+img#origin{
+    position: absolute;
+    width: 550px;
+    height: 390px;
+    top: 962px;
+}
+h1#Origg{
+    font-family: SodoSans-Bold;
+    position: absolute;
+    right: 150px;
+    top: 1020px;
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+}
+
+
+
+
+#locl{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    
+
+    position: absolute;
+    top: 850px;
+    left:290px;
+}
+#locl:hover{
+    background-color: rgba(128, 124, 124, 0.281);
+    #busc{
+        color:rgb(255, 255, 255);
+    }
+}
+a#busc{
+    text-decoration: none;
+    color: white;
+    font-family: SoDoSans-Regular;
+}
+
+
+#origina{
+background-color:transparent;
+color: rgb(255, 255, 255);
+width: 120px;
+height: 35px;
+border-radius: 30px;
+border-color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+
+
+position: absolute;
+top: 1280px;
+right:290px;
+}
+#origina:hover{
+background-color: rgba(128, 124, 124, 0.281);
+#descoberta{
+    color:rgb(255, 255, 255);
+}
+}
+a#descoberta{
+text-decoration: none;
+color: white;
+font-family: SoDoSans-Regular;
+}
+
+#diver{
+background-color:transparent;
+color: rgb(255, 255, 255);
+width: 120px;
+height: 35px;
+border-radius: 30px;
+border-color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+font-family: SoDoSans-Regular;
+    
+    
+position: absolute;
+top: 430px;
+right:265px;
+}
+#diver:hover{
+background-color: rgba(128, 124, 124, 0.281);
+color: rgb(255, 255, 255);
+}
+
+
+img#variedade {
+    position: absolute;
+    top: 1470px;
+    left: 140px;
+    height: 200px;
+}
+
+p#text_last{
+    font-family: SoDoSans-Bold;
+    font-size: 50pt;
+    position: absolute;
+    top: 1460px;
+    right: 200px;
+}
+
+h1#Starbuck{
+    font-family: SoDoSans-Bold;
+    font-size: 53pt;
+    position: absolute;
+    top: 1540px;
+    right: 20px;
+    color: rgb(27, 145, 27);
+    text-shadow: rgba(0, 0, 0, 0.39) 0.1em 0.1em 0.3em;
+}
+
+
+p#sublocal{
+    font-family: SoDoSans-Regular;
+    font-size: 20pt;
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 720px;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
+
+}
+
+p#suborigin{
+    font-family: SoDoSans-Regular;
+    font-size: 20pt;
+    position: absolute;
+    color: white;
+    right: 190px;
+    top: 1130px;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
+
+}
+
+p#subdive{
+    font-family: SoDoSans-Regular;
+    font-size: 20pt;
+    position: absolute;
+    color: white;
+    right: 120px;
+    top: 290px;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
+
+}
+
+a#surpresa{
+    text-decoration: none;
+    color: rgb(27, 145, 27);
+}
+#surpresa:hover{
+    color: white;
+    text-shadow: lightgreen 0.1em 0.1em 0.5em;
+    transition: 1.0s;
+}
+
+#navegation{
+    font-family: SoDoSans-Regular;
+    position: absolute;
+    left: 290px;
+    top: 1850px;
+}
+
+.modified{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    
+
+}
+.modified:hover{
+    text-decoration: underline;
+}
+
+#last_thing{
+    color: grey;
+    font-family: SoDoSans-Regular;
+    font-size: 10pt;
+    position: absolute;
+    left: 290px;
+    top: 1880px;
+}
