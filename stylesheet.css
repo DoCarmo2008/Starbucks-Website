@@ -7,16 +7,16 @@
 
 @font-face{
     font-family: SodoSans-Bold;
-    src: url(../Imagens/Fonts/SoDoSans-Bold.ttf)
+    src: url(./Imagens/Fonts/SoDoSans-Bold.ttf)
 }
 
 @font-face{
     font-family: SodoSans-Regular;
-    src: url(../Imagens/Fonts/SoDoSans-Regular.ttf)
+    src: url(./Imagens/Fonts/SoDoSans-Regular.ttf)
 }
 @font-face {
     font-family: Pike;
-    src: url(../Imagens/Fonts/pike-bold.otf);
+    src: url(./Imagens/Fonts/pike-bold.otf);
 }
 *{
     margin: 0;
