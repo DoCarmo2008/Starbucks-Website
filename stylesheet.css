@@ -45,10 +45,11 @@ img#logo{
 }
 .header{
     background-color: var(--colorlight2);
-    box-shadow: 1px 1px 4px var(--colordark);
+    box-shadow: 1px 1px 3px var(--colordark);
     height: 90px;
     justify-content: space-between;
     padding: 0 10%;
+    width: calc(100% - screenlimit);
 }
 .navegacao_header{
     gap: 50px;
@@ -158,211 +159,36 @@ a#tnavega{
     transition: 1.6s;
 }
 
-#tiposs{
-    position: absolute;
-    width: 600px;
+/*  ------------------------------ CONTEUDO DA PÁGINA --------------------- */
+
+.divs_backcolors{
     height: 400px;
-}
-h1#diversos{
-    font-family: SodoSans-Bold;
-    position: absolute;
-    right: 150px;
-    top: 200px;
-    color: rgb(255, 255, 255);
-    font-size: 40pt;
-
-}
-    
-
-img#lojas{
-    position: absolute;
-    width: 550px;
-    height: 390px;
-    right: 0px;
-    top: 558px;
-}
-h1#Lojas_title{
-    font-family: SodoSans-Bold;
-    position: absolute;
-    left: 210px;
-    top: 610px;
-    color: rgb(255, 255, 255);
-    font-size: 40pt;
-
+    width: 100%;
 }
 
-img#origin{
-    position: absolute;
-    width: 550px;
-    height: 390px;
-    top: 962px;
-}
-h1#Origg{
-    font-family: SodoSans-Bold;
-    position: absolute;
-    right: 150px;
-    top: 1020px;
-    color: rgb(255, 255, 255);
-    font-size: 40pt;
+#div_diversidade{
+    background-color: #cd8d7d;
 }
 
-
-
-
-#locl{
-    background-color:transparent;
-    color: rgb(255, 255, 255);
-    width: 120px;
-    height: 35px;
-    border-radius: 30px;
-    border-color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    
-
-    position: absolute;
-    top: 850px;
-    left:290px;
-}
-#locl:hover{
-    background-color: rgba(128, 124, 124, 0.281);
-    #busc{
-        color:rgb(255, 255, 255);
-    }
-}
-a#busc{
-    text-decoration: none;
-    color: white;
-    font-family: SoDoSans-Regular;
+#localidade{
+    background-color: #27251F;
 }
 
-
-#origina{
-background-color:transparent;
-color: rgb(255, 255, 255);
-width: 120px;
-height: 35px;
-border-radius: 30px;
-border-color: rgb(255, 255, 255);
-border: 2px solid rgb(255, 255, 255);
--webkit-transition-duration: 0.4s; 
-transition-duration: 0.4s;
-
-
-position: absolute;
-top: 1280px;
-right:290px;
-}
-#origina:hover{
-background-color: rgba(128, 124, 124, 0.281);
-#descoberta{
-    color:rgb(255, 255, 255);
-}
-}
-a#descoberta{
-text-decoration: none;
-color: white;
-font-family: SoDoSans-Regular;
+#originalidade{
+    background-color: #9eb9b3;
 }
 
-#diver{
-background-color:transparent;
-color: rgb(255, 255, 255);
-width: 120px;
-height: 35px;
-border-radius: 30px;
-border-color: rgb(255, 255, 255);
-border: 2px solid rgb(255, 255, 255);
--webkit-transition-duration: 0.4s; 
-transition-duration: 0.4s;
-font-family: SoDoSans-Regular;
-    
-    
-position: absolute;
-top: 430px;
-right:265px;
-}
-#diver:hover{
-background-color: rgba(128, 124, 124, 0.281);
-color: rgb(255, 255, 255);
-}
-
-
-img#variedade {
-    position: absolute;
-    top: 1470px;
-    left: 140px;
-    height: 200px;
-}
-
-p#text_last{
-    font-family: SoDoSans-Bold;
-    font-size: 50pt;
-    position: absolute;
-    top: 1460px;
-    right: 200px;
-}
-
-h1#Starbuck{
-    font-family: SoDoSans-Bold;
-    font-size: 53pt;
-    position: absolute;
-    top: 1540px;
-    right: 20px;
-    color: rgb(27, 145, 27);
-    text-shadow: rgba(0, 0, 0, 0.39) 0.1em 0.1em 0.3em;
-}
-
-
-p#sublocal{
-    font-family: SoDoSans-Regular;
-    font-size: 20pt;
-    position: absolute;
-    color: white;
-    left: 100px;
-    top: 720px;
-    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
-
-}
-
-p#suborigin{
-    font-family: SoDoSans-Regular;
-    font-size: 20pt;
-    position: absolute;
-    color: white;
-    right: 190px;
-    top: 1130px;
-    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
-
-}
-
-p#subdive{
-    font-family: SoDoSans-Regular;
-    font-size: 20pt;
-    position: absolute;
-    color: white;
-    right: 120px;
-    top: 290px;
-    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
-
-}
-
-a#surpresa{
-    text-decoration: none;
-    color: rgb(27, 145, 27);
-}
-#surpresa:hover{
-    color: white;
-    text-shadow: lightgreen 0.1em 0.1em 0.5em;
-    transition: 1.0s;
+#surpresa{
+ background-color: #00704A;
+ width: 100%;
+ height: 250px;
 }
 
 #navegation{
     font-family: SoDoSans-Regular;
     position: absolute;
     left: 290px;
-    top: 1850px;
+    top: 1790px;
 }
 
 .modified{
@@ -376,11 +202,191 @@ a#surpresa{
     text-decoration: underline;
 }
 
+/* Primeira div*/
 #last_thing{
     color: grey;
     font-family: SoDoSans-Regular;
     font-size: 10pt;
     position: absolute;
     left: 290px;
-    top: 1880px;
+    top: 1830px;
+}
+
+h1#diversos{
+    font-family: SodoSans-Bold;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+}
+p#subdive{
+    font-family: SoDoSans-Regular;
+    font-size: 20pt;
+    position: absolute;
+    color: white;
+    right: 120px;
+    top: 130px;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
+}
+#diver{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-family: SoDoSans-Regular;
+    position: absolute;
+    top: 270px;
+    right:265px;
+}
+#diver:hover{
+background-color: rgba(128, 124, 124, 0.281);
+color: rgb(255, 255, 255);
+}
+
+h1#Lojas_title{
+    font-family: SodoSans-Bold;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+}
+
+p#sublocal{
+    font-family: SoDoSans-Regular;
+    font-size: 20pt;
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 150px;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
+}
+#locl{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 250px;
+    left:270px;
+}
+#locl:hover{
+    background-color: rgba(128, 124, 124, 0.281);
+    #busc{
+        color:rgb(255, 255, 255);
+    }
+}
+a#busc{
+    text-decoration: none;
+    color: white;
+    font-family: SoDoSans-Regular;
+}
+
+h1#Origg{
+    font-family: SodoSans-Bold;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+}
+p#suborigin{
+    font-family: SoDoSans-Regular;
+    font-size: 20pt;
+    position: absolute;
+    color: white;
+    right: 190px;
+    top: 140px;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.9em;
+}
+#origina{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 280px;
+    right:290px;
+    }
+#origina:hover{
+background-color: rgba(128, 124, 124, 0.281);
+#descoberta{
+    color:rgb(255, 255, 255);
+}
+}
+a#descoberta{
+    text-decoration: none;
+    color: white;
+    font-family: SoDoSans-Regular;
+    }
+
+a#surpresas{
+    text-decoration: none;
+    color: rgb(27, 145, 27);
+}
+#surpresas:hover{
+    color: white;
+    text-shadow: lightgreen 0.1em 0.1em 0.5em;
+    transition: 1.0s;
+}
+p#text_last{
+    font-family: SoDoSans-Bold;
+    font-size: 50pt;
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+h1#Starbuck{
+    font-family: SoDoSans-Bold;
+    font-size: 53pt;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    color: rgb(27, 145, 27);
+    text-shadow: rgba(0, 0, 0, 0.39) 0.1em 0.1em 0.3em;
+}
+
+/* COMPLEMENTOS*/ 
+.imagens_config{
+    width: 600px;
+    height: 400px;
+}
+
+#star{
+    width: 450px;
+    height: 250px;
+}
+
+/* Menu responsivo */
+.list_buttons{
+    display: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+}
+@media screen and (max-width: 768px){
+    .list_buttons{
+        display: block;
+    }
+    .navegacao_header{
+        display: none;
+}
+
 }
