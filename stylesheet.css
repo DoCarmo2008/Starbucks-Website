@@ -159,6 +159,10 @@ a#tnavega{
     transition: 1.6s;
 }
 
+
+#after_click{
+    display: none;
+}
 /*  ------------------------------ CONTEUDO DA PÁGINA --------------------- */
 
 .divs_backcolors{
@@ -373,7 +377,9 @@ h1#Starbuck{
     height: 250px;
 }
 
-/* Menu responsivo */
+
+
+/* RESIZING CONFIGURATION*/
 .list_buttons{
     display: none;
     border: none;
@@ -385,8 +391,150 @@ h1#Starbuck{
     .list_buttons{
         display: block;
     }
+    
+
     .navegacao_header{
         display: none;
 }
 
+/* Diversidade*/ 
+    #tiposs{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 60%;
+    }
+    #div_diversidade{
+        height: 650px;
+    }
+    #div_diversidade h1{
+        position: absolute;
+        right: 30%;
+        top: 410px;
+    }
+    #div_diversidade p{
+        position: absolute;
+        right: 35%;
+        top: 490px;
+        font-size: 15pt;
+    }
+    #diver{
+        position: absolute;
+        top: 590px;
+        right: 44%;
+    }
+
+    
+
+    /*LOCALIDADE*/
+
+    #lojas{
+        position: absolute;
+        width: 100%;
+        display: block;
+        height: 60%;
+    }
+    #localidade{
+        position: absolute;
+        height: 650px;
+        margin-top: 250px;
+    }
+    #localidade h1{
+        position: absolute;
+        top: 410px;
+        left: 30%;
+    }
+    #localidade p{
+        position: absolute;
+        top: 490px;
+        left: 25%;
+        font-size: 14pt;
+    }
+    #locl{
+        position: absolute;
+        top: 580px;
+        left: 40%;
+    }
+
+
+    /*Originalidade*/
+    #originalidade{
+        margin-top: 500px;
+        height: 580px;
+    }
+    #origin{
+        width: 100%;
+        height: 60%;
+    }
+    #originalidade h1{
+        position: absolute;
+        top: 350px;
+        left: 25%;
+    }
+    #originalidade p{
+        position: absolute;
+        top: 425px;
+        left: 25%;
+        font-size: 14pt;
+    }
+    #origina{
+        position: absolute;
+        top: 540px;
+        left: 42%;
+    }
+
+
+    /*SURPRESA*/
+    #surpresa img{
+        width: 100%;
+        height: 60%;
+    }
+    #surpresa{
+        margin-top: 680px;
+        height: 600px;
+    }
+    #surpresa p{
+        position: absolute;
+        top: 74%;
+        font-size: 25pt;
+        left: 10%;
+    }
+    #surpresa h1{
+        position: absolute;
+        top: 81%;
+        left: 27%;
+        font-size: 25pt;
+    }
+    #the_footer{
+        margin-top: 1000px;
+    }
+    #the_footer p{
+        position: absolute;
+        top: 2850px;
+        left: 15%;
+    }
+    #the_footer a{
+        position: relative;
+        top: 1000px;
+        left: -40%;
+
+    }
+    #after_click{
+        background-color:rgb(243, 243, 243);
+        position: absolute;
+        right: 0px;
+        height: 100%;
+        width: 200px;
+        display: block;
+        
+}
+
+    #tracinho:active{
+        color: rgb(0, 255, 0);
+    }
+    
+}
+@keyframes showSideBar{
+    from{display: none;}
+    to{display: block;}
 }
